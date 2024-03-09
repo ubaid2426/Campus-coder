@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "meta-viewport": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "button-type": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "disown-opener": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-tap-highlight-color",
+          "scale",
+          "translate",
+          "height: fit-content",
+          "width: fit-content"
+        ]
+      }
+    ],
+    "meta-charset-utf-8": "off"
+  }
+}
